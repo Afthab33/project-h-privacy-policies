@@ -1,82 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Privacy Policy - Project H</title>
+    <title>Data Deletion Request - Project H</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.6; }
         h1, h2 { color: #3E7B27; }
+        form { background: #f9f9f9; padding: 20px; border-radius: 5px; }
+        input, textarea { width: 100%; padding: 8px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 4px; }
+        button { background: #3E7B27; color: white; border: none; padding: 10px 15px; border-radius: 4px; cursor: pointer; }
+        button:hover { background: #2d5a1d; }
     </style>
 </head>
 <body>
-    <h1>Privacy Policy for Project H</h1>
-    <p><em>Last updated: March 30, 2025</em></p>
+    <h1>Data Deletion Request</h1>
+    <p>At Project H, we respect your privacy rights. You can request deletion of your personal data using this form or by contacting us directly.</p>
     
-    <h2>1. Introduction</h2>
-    <p>This Privacy Policy describes how Project H ("we", "our", or "us") collects, uses, and shares information when you use our application.</p>
+    <h2>Request Data Deletion</h2>
+    <p>Please fill out this form to request the deletion of your data from our systems. We will process your request within 30 days.</p>
     
-    <h2>2. Information We Collect</h2>
-    <p>We collect information you provide directly to us, including:</p>
+    <form id="deletion-form">
+        <div>
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required placeholder="Your email address used with our service">
+        </div>
+        
+        <div>
+            <label for="account-id">Account ID (if known)</label>
+            <input type="text" id="account-id" name="account-id" placeholder="Your account ID (optional)">
+        </div>
+        
+        <div>
+            <label for="reason">Reason for Deletion (Optional)</label>
+            <textarea id="reason" name="reason" rows="4" placeholder="Please let us know why you're requesting data deletion (optional)"></textarea>
+        </div>
+        
+        <div>
+            <button type="submit">Submit Deletion Request</button>
+        </div>
+    </form>
+    
+    <h2>Alternative Methods</h2>
+    <p>You can also request data deletion by:</p>
     <ul>
-        <li>Account information (name, email, profile picture)</li>
-        <li>Authentication data when you connect through third-party services</li>
-        <li>Health and fitness data (height, weight, fitness goals)</li>
-        <li>Nutrition preferences and dietary restrictions</li>
-        <li>Exercise habits and preferences</li>
-        <li>Usage information and application preferences</li>
+        <li>Emailing us at <a href="mailto:privacy@projecth.example.com">privacy@projecth.example.com</a> with "Data Deletion Request" in the subject line</li>
+        <li>Using the "Delete My Account" option in your account settings within the application</li>
     </ul>
     
-    <h2>3. How We Use Your Information</h2>
-    <p>We use the information we collect to:</p>
+    <h2>What Happens Next</h2>
+    <p>After submitting your request:</p>
+    <ol>
+        <li>We'll confirm receipt of your request within 3 business days</li>
+        <li>We may request verification of your identity</li>
+        <li>We'll process your deletion request within 30 days</li>
+        <li>You'll receive confirmation when the deletion is complete</li>
+    </ol>
+    
+    <h2>What We Delete</h2>
+    <p>When you request data deletion, we will remove:</p>
     <ul>
-        <li>Provide, maintain, and improve our services</li>
-        <li>Generate personalized health, nutrition, and fitness recommendations</li>
-        <li>Create and update your user profile</li>
-        <li>Process and complete transactions</li>
-        <li>Send you technical notices and support messages</li>
-        <li>Respond to your comments and questions</li>
-        <li>Monitor and analyze trends and usage</li>
+        <li>Your account information</li>
+        <li>Your health and fitness data</li>
+        <li>Your nutrition and workout plans</li>
+        <li>Your preferences and settings</li>
     </ul>
     
-    <h2>4. Data Sharing and Disclosure</h2>
-    <p>We do not sell your personal information. We may share information as described below:</p>
-    <ul>
-        <li>With service providers who perform services on our behalf</li>
-        <li>To comply with legal obligations</li>
-        <li>In connection with a merger, sale, or acquisition</li>
-        <li>With your consent</li>
-    </ul>
+    <p>Some information may be retained for legal, security, or technical reasons. See our <a href="index.html">Privacy Policy</a> for more details.</p>
     
-    <h2>5. Data Security</h2>
-    <p>We implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.</p>
-    
-    <h2>6. Your Rights</h2>
-    <p>Depending on your location, you may have certain rights regarding your personal information, including:</p>
-    <ul>
-        <li>Access to your personal information</li>
-        <li>Correction of inaccurate or incomplete information</li>
-        <li>Deletion of your personal information</li>
-        <li>Restriction or objection to processing</li>
-        <li>Data portability</li>
-    </ul>
-    
-    <h2>7. Data Deletion</h2>
-    <p>To request deletion of your data, please visit our <a href="data-deletion.html">Data Deletion Request page</a> or email us at: <a href="mailto:privacy@projecth.example.com">privacy@projecth.example.com</a></p>
-    
-    <h2>8. Third-Party Authentication</h2>
-    <p>Our application offers sign-in through third-party services including Google and Facebook. When you choose to authenticate using these services, we may collect information these platforms make available to us, such as your name, profile picture, email address, and unique identifier. Our use of information received from these platforms is governed by this Privacy Policy.</p>
-    
-    <h2>9. California Privacy Rights</h2>
-    <p>California residents have certain rights regarding their personal information under the California Consumer Privacy Act (CCPA).</p>
-    
-    <h2>10. International Data Transfers</h2>
-    <p>Your information may be transferred to and processed in countries other than your country of residence, which may have different data protection laws.</p>
-    
-    <h2>11. Changes to This Policy</h2>
-    <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
-    
-    <h2>12. Contact Us</h2>
-    <p>If you have questions about this Privacy Policy, please contact us at: <a href="mailto:contact@projecth.example.com">contact@projecth.example.com</a></p>
+    <script>
+        // For demonstration purposes only - in production you would connect this to your backend
+        document.getElementById('deletion-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your request. In a real implementation, this would submit the request to our servers. For testing purposes, consider this submission successful.');
+        });
+    </script>
 </body>
 </html>

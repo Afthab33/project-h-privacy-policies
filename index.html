@@ -1,82 +1,285 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Privacy Policy - Project H</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy</title>
     <style>
-        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.6; }
-        h1, h2 { color: #3E7B27; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #3498db;
+        }
+        h2 {
+            color: #2980b9;
+            margin-top: 30px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #eee;
+        }
+        h3 {
+            color: #3498db;
+            margin-top: 20px;
+        }
+        p, ul, ol {
+            margin-bottom: 15px;
+        }
+        ul, ol {
+            padding-left: 30px;
+        }
+        .last-updated {
+            text-align: center;
+            font-style: italic;
+            color: #7f8c8d;
+            margin-bottom: 40px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .highlight-box {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            margin: 20px 0;
+        }
+        .data-category {
+            background-color: #ebf5fb;
+            padding: 12px;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+        }
     </style>
 </head>
 <body>
-    <h1>Privacy Policy for Project H</h1>
-    <p><em>Last updated: March 30, 2025</em></p>
+    <h1>PRIVACY POLICY</h1>
+    <p class="last-updated"><strong>Last Updated: April 13, 2025</strong></p>
     
-    <h2>1. Introduction</h2>
-    <p>This Privacy Policy describes how Project H ("we", "our", or "us") collects, uses, and shares information when you use our application.</p>
-    
-    <h2>2. Information We Collect</h2>
-    <p>We collect information you provide directly to us, including:</p>
-    <ul>
-        <li>Account information (name, email, profile picture)</li>
-        <li>Authentication data when you connect through third-party services</li>
-        <li>Health and fitness data (height, weight, fitness goals)</li>
-        <li>Nutrition preferences and dietary restrictions</li>
-        <li>Exercise habits and preferences</li>
-        <li>Usage information and application preferences</li>
-    </ul>
-    
-    <h2>3. How We Use Your Information</h2>
-    <p>We use the information we collect to:</p>
-    <ul>
-        <li>Provide, maintain, and improve our services</li>
-        <li>Generate personalized health, nutrition, and fitness recommendations</li>
-        <li>Create and update your user profile</li>
-        <li>Process and complete transactions</li>
-        <li>Send you technical notices and support messages</li>
-        <li>Respond to your comments and questions</li>
-        <li>Monitor and analyze trends and usage</li>
-    </ul>
-    
-    <h2>4. Data Sharing and Disclosure</h2>
-    <p>We do not sell your personal information. We may share information as described below:</p>
-    <ul>
-        <li>With service providers who perform services on our behalf</li>
-        <li>To comply with legal obligations</li>
-        <li>In connection with a merger, sale, or acquisition</li>
-        <li>With your consent</li>
-    </ul>
-    
-    <h2>5. Data Security</h2>
-    <p>We implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.</p>
-    
-    <h2>6. Your Rights</h2>
-    <p>Depending on your location, you may have certain rights regarding your personal information, including:</p>
-    <ul>
-        <li>Access to your personal information</li>
-        <li>Correction of inaccurate or incomplete information</li>
-        <li>Deletion of your personal information</li>
-        <li>Restriction or objection to processing</li>
-        <li>Data portability</li>
-    </ul>
-    
-    <h2>7. Data Deletion</h2>
-    <p>To request deletion of your data, please visit our <a href="data-deletion.html">Data Deletion Request page</a> or email us at: <a href="mailto:privacy@projecth.example.com">privacy@projecth.example.com</a></p>
-    
-    <h2>8. Third-Party Authentication</h2>
-    <p>Our application offers sign-in through third-party services including Google and Facebook. When you choose to authenticate using these services, we may collect information these platforms make available to us, such as your name, profile picture, email address, and unique identifier. Our use of information received from these platforms is governed by this Privacy Policy.</p>
-    
-    <h2>9. California Privacy Rights</h2>
-    <p>California residents have certain rights regarding their personal information under the California Consumer Privacy Act (CCPA).</p>
-    
-    <h2>10. International Data Transfers</h2>
-    <p>Your information may be transferred to and processed in countries other than your country of residence, which may have different data protection laws.</p>
-    
-    <h2>11. Changes to This Policy</h2>
-    <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
-    
-    <h2>12. Contact Us</h2>
-    <p>If you have questions about this Privacy Policy, please contact us at: <a href="mailto:contact@projecth.example.com">contact@projecth.example.com</a></p>
+    <div class="highlight-box" style="background-color: #fff3cd; border-left-color: #ffc107; margin-bottom: 30px;">
+        <p><strong>DEVELOPMENT NOTICE:</strong> Project H is currently in development. This Privacy Policy is preliminary and may be updated prior to official launch. By using this platform during its development phase, you acknowledge that data practices, features, and policies may change.</p>
+    </div>
+
+    <div class="section">
+        <h2>1. INTRODUCTION</h2>
+        <p>At Project H ("we," "our," or "us"), we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our AI-powered health and fitness platform, including our website, mobile application, and related services (collectively, the "Service").</p>
+        <p>Please read this Privacy Policy carefully. By accessing or using our Service, you acknowledge that you have read, understood, and agree to be bound by this Privacy Policy. If you do not agree with our policies and practices, please do not use our Service.</p>
+    </div>
+
+    <div class="section">
+        <h2>2. INFORMATION WE COLLECT</h2>
+        <p>We collect several types of information from and about users of our Service:</p>
+
+        <h3>2.1 Personal Information</h3>
+        <div class="data-category">
+            <p><strong>Account Information</strong>: When you create an account, we collect your name, email address, password, age, gender, height, weight, and profile picture (if provided).</p>
+        </div>
+
+        <div class="data-category">
+            <p><strong>Health and Fitness Data</strong>: We collect information you provide about your fitness goals, exercise routines, dietary preferences, sleep patterns, and other health-related information.</p>
+        </div>
+
+        <div class="data-category">
+            <p><strong>Wearable Device Data</strong>: When you connect wearable devices (such as Apple Watch, Whoop, Garmin, or Oura), we collect biometric data including, but not limited to, heart rate, heart rate variability (HRV), sleep stages, steps, calories burned, activity levels, recovery metrics, and other fitness and health data that your wearable device tracks.</p>
+        </div>
+
+        <div class="data-category">
+            <p><strong>User Content</strong>: Any additional information you provide through surveys, feedback forms, or customer support interactions.</p>
+        </div>
+
+        <h3>2.2 Automatically Collected Information</h3>
+        <div class="data-category">
+            <p><strong>Usage Data</strong>: Information about how you interact with our Service, including features you use, time spent on the Service, and navigation paths.</p>
+        </div>
+
+        <div class="data-category">
+            <p><strong>Device Information</strong>: Information about your device, including device type, operating system, browser type, IP address, and mobile device identifiers.</p>
+        </div>
+
+        <div class="data-category">
+            <p><strong>Location Data</strong>: With your permission, we may collect precise or approximate location data from your device.</p>
+        </div>
+
+        <h3>2.3 Voice Data</h3>
+        <div class="data-category">
+            <p>If you use voice features in our app, we may collect and process voice recordings to analyze tone and provide context-aware coaching.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>3. HOW WE USE YOUR INFORMATION</h2>
+        <p>We use the information we collect for various purposes, including to:</p>
+        <ul>
+            <li>Provide, maintain, and improve our Service</li>
+            <li>Create and manage your account</li>
+            <li>Generate personalized workout plans, diet recommendations, and sleep insights</li>
+            <li>Analyze your health and fitness data to provide tailored coaching</li>
+            <li>Adjust recommendations based on your biometric data, mood, stress levels, and other factors</li>
+            <li>Communicate with you about updates, features, and support</li>
+            <li>Send push notifications (with your permission)</li>
+            <li>Analyze usage patterns to improve our Service</li>
+            <li>Detect and prevent fraud, security incidents, and other harmful activities</li>
+            <li>Comply with legal obligations</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>4. LEGAL BASIS FOR PROCESSING (FOR EU/EEA USERS)</h2>
+        <p>If you are located in the European Economic Area (EEA) or United Kingdom, we will only process your personal information when we have a valid legal basis, including:</p>
+        <ul>
+            <li><strong>Performance of a Contract</strong>: Processing necessary to provide you with the Service.</li>
+            <li><strong>Consent</strong>: Where you have given us specific consent to process your data.</li>
+            <li><strong>Legitimate Interests</strong>: Where processing is necessary for our legitimate interests and does not override your rights and freedoms.</li>
+            <li><strong>Legal Obligation</strong>: Where processing is necessary to comply with a legal obligation.</li>
+        </ul>
+        <p>For health-related data, we will obtain your explicit consent before collection and processing.</p>
+    </div>
+
+    <div class="section">
+        <h2>5. DATA SHARING AND DISCLOSURE</h2>
+        <p>We may share your information in the following situations:</p>
+
+        <h3>5.1 Service Providers</h3>
+        <p>We may share your information with third-party vendors, service providers, and contractors who perform services on our behalf and require access to your information to provide these services. These may include payment processors, cloud service providers, analytics providers, and customer support tools.</p>
+
+        <h3>5.2 With Your Consent</h3>
+        <p>We may share your information when you explicitly consent to such sharing.</p>
+
+        <h3>5.3 Compliance and Protection</h3>
+        <p>We may disclose your information where required by law or if we believe that disclosure is necessary to:</p>
+        <ul>
+            <li>Comply with a legal obligation, court order, or legal process</li>
+            <li>Protect the rights, property, or safety of [Your App Name], our users, or others</li>
+            <li>Detect, prevent, or address fraud, security, or technical issues</li>
+            <li>Respond to an emergency</li>
+        </ul>
+
+        <h3>5.4 Business Transfers</h3>
+        <p>In the event of a merger, acquisition, reorganization, bankruptcy, or similar event, your information may be transferred as part of our business assets.</p>
+    </div>
+
+    <div class="section">
+        <h2>6. DATA RETENTION</h2>
+        <p>We will retain your personal information only for as long as necessary to fulfill the purposes outlined in this Privacy Policy, unless a longer retention period is required or permitted by law. When determining retention periods, we consider:</p>
+        <ul>
+            <li>The amount, nature, and sensitivity of the personal information</li>
+            <li>The potential risk of harm from unauthorized use or disclosure</li>
+            <li>The purposes for which we process the information</li>
+            <li>Whether we can achieve those purposes through other means</li>
+            <li>Legal, regulatory, accounting, or reporting requirements</li>
+        </ul>
+        <p>You can request deletion of your account and associated data at any time.</p>
+    </div>
+
+    <div class="section">
+        <h2>7. DATA SECURITY</h2>
+        <p>We implement appropriate technical and organizational measures to protect the security, confidentiality, and integrity of your personal information. However, no electronic transmission or storage system is 100% secure, and we cannot guarantee absolute security.</p>
+    </div>
+
+    <div class="section">
+        <h2>8. YOUR PRIVACY RIGHTS</h2>
+        <div class="highlight-box">
+            <p>Depending on your location, you may have certain rights regarding your personal information, which may include:</p>
+            <ul>
+                <li><strong>Access</strong>: The right to request copies of your personal information</li>
+                <li><strong>Rectification</strong>: The right to request correction of inaccurate information</li>
+                <li><strong>Deletion</strong>: The right to request deletion of your personal information</li>
+                <li><strong>Restriction</strong>: The right to request restriction of processing of your information</li>
+                <li><strong>Data Portability</strong>: The right to receive a copy of your data in a structured, machine-readable format</li>
+                <li><strong>Objection</strong>: The right to object to our processing of your personal information</li>
+                <li><strong>Withdraw Consent</strong>: The right to withdraw consent where processing is based on consent</li>
+            </ul>
+            <p>To exercise these rights, please contact us using the information provided in the "Contact Us" section.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>9. CHILDREN'S PRIVACY</h2>
+        <p>Our Service is not directed to individuals under the age of 18. We do not knowingly collect personal information from children. If you are a parent or guardian and believe your child has provided us with personal information, please contact us so we can delete such information.</p>
+    </div>
+
+    <div class="section">
+        <h2>10. INTERNATIONAL DATA TRANSFERS</h2>
+        <p>Your information may be transferred to, stored, and processed in countries other than the country in which you reside. When we transfer data internationally, we take measures to ensure adequate protection for your data in accordance with applicable data protection laws.</p>
+        <p>For users in the European Economic Area (EEA), United Kingdom, or Switzerland, we ensure that transfers of personal data to countries outside these regions are subject to appropriate safeguards, such as Standard Contractual Clauses or adequacy decisions.</p>
+    </div>
+
+    <div class="section">
+        <h2>11. THIRD-PARTY LINKS AND SERVICES</h2>
+        <p>Our Service may contain links to third-party websites, apps, or services that are not operated by us. When you click on these links, you may be directed to third-party sites over which we have no control. We strongly advise you to review the privacy policies of every site you visit.</p>
+    </div>
+
+    <div class="section">
+        <h2>12. CHANGES TO THIS PRIVACY POLICY</h2>
+        <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date. For significant changes, we will provide additional notice, such as through email or in-app notification.</p>
+        <p>We encourage you to review the Privacy Policy whenever you access the Service to stay informed about our information practices.</p>
+    </div>
+
+    <div class="section">
+        <h2>13. CALIFORNIA PRIVACY RIGHTS</h2>
+        <p>If you are a California resident, the California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CPRA) may provide you with additional rights regarding your personal information. These include:</p>
+        <ul>
+            <li>The right to know what personal information we collect, use, disclose, and sell</li>
+            <li>The right to delete personal information</li>
+            <li>The right to opt-out of the sale or sharing of personal information</li>
+            <li>The right to non-discrimination for exercising your privacy rights</li>
+            <li>The right to limit the use and disclosure of sensitive personal information</li>
+        </ul>
+        <p>To learn more about your California privacy rights, please visit our California Privacy Rights page or contact us.</p>
+    </div>
+
+    <div class="section">
+        <h2>14. WEARABLE DEVICE DATA PROCESSING</h2>
+        <p>When you connect a wearable device to our Service, we process data from that device according to the following principles:</p>
+        <ul>
+            <li>We only access the data necessary to provide our Service</li>
+            <li>We use industry-standard security measures to protect this data</li>
+            <li>We do not sell your wearable device data to third parties</li>
+            <li>We process this data to provide personalized recommendations and insights</li>
+            <li>We retain this data in accordance with our overall data retention policies</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>15. AI AND MACHINE LEARNING</h2>
+        <p>Our Service uses artificial intelligence and machine learning technologies to provide personalized recommendations and insights. This involves:</p>
+        <ul>
+            <li>Analyzing patterns in your health and fitness data</li>
+            <li>Creating personalized plans based on your goals and data</li>
+            <li>Adapting recommendations based on your feedback and progress</li>
+            <li>Identifying trends and correlations in your biometric data</li>
+        </ul>
+        <p>The AI systems are designed to continuously improve based on your interactions and feedback. You can adjust your preferences for AI-powered features in your account settings.</p>
+    </div>
+
+    <div class="section">
+        <h2>16. CONTACT US</h2>
+        <p>If you have any questions, concerns, or requests regarding this Privacy Policy or our privacy practices, please contact us at:</p>
+        <ul>
+            <li>Email: [Your Contact Email]</li>
+            <li>Address: [Your Business Address]</li>
+            <li>Phone: [Your Contact Phone]</li>
+        </ul>
+        <p>For European users, if you have concerns about our processing of your personal data that we are not able to resolve, you have the right to lodge a complaint with the data privacy authority where you reside.</p>
+    </div>
+
+    <div class="section">
+        <h2>17. ACKNOWLEDGMENT</h2>
+        <div class="highlight-box">
+            <p>By using our Service, you acknowledge that you have read and understood this Privacy Policy and agree to its terms.</p>
+        </div>
+    </div>
 </body>
 </html>
